@@ -1,0 +1,137 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+.container{
+    
+}
+.container-nav{
+    background-color:  #333;
+    width: 100%;
+    height: 10vh;
+    
+}
+.ul-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.li-nav{
+    font-size: 30px;
+    list-style-type: none;
+    padding: 10px;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+}
+.li-nav:hover{
+    background-color: rgb(37, 21, 255);
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+.a-nav{
+    color:white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.container-content{
+    background-image: url(bareng.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+/* iki kanggo sing about */
+.container-contentt{
+    background-color: #88057255;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 80vh;
+}
+/* iki kanggo sing about end*/
+
+.a-content{
+    width: 720px;
+    height: 480px;
+    background-color: #eaeaea;
+    color: black;
+    font-size: 30px;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.img-content{
+    width: 60%;
+    height: 60%;
+}
+.container-footer{
+    height: 10vh;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-footer{
+    font-size: 40px;
+    color: white;
+}
+
+
+.parallax{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.intro{
+    background-image: url(balon.jpg);
+}
+.content{
+    background-image: url(upacara.jpg);
+}
+.footer{
+    background-image: url(rapot.jpg);
+}
+.cta{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title{
+    font-size: 4em;
+    letter-spacing: 20px;
+    font-family: fantasy;
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    
+}
+.lorem{
+    font-size: 4em;
+    text-align:center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow',, sans-serif;
+}
